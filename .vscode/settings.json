@@ -1,0 +1,10 @@
+{
+    "python.testing.pytestArgs": [
+        "src/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/kedro-org/kedro/develop/static/jsonschema/kedro-catalog-0.18.json": "conf/**/*catalog*"
+    }
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/workspace/kedro-tutorial/spaceflights/mlruns/794534012126559268/e89e18d777d44e788df2d2f743b2687b/artifacts
+end_time: 1685865852265
+entry_point_name: ''
+experiment_id: '794534012126559268'
+lifecycle_stage: active
+run_id: e89e18d777d44e788df2d2f743b2687b
+run_name: __default__
+run_uuid: e89e18d777d44e788df2d2f743b2687b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685865825155
+status: 3
+tags: []
+user_id: Krzysztof

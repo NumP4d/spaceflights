@@ -71,14 +71,18 @@ regressor:
   versioned: true
 
 active_modelling_pipeline.regressor:
-  type: pickle.PickleDataSet
-  filepath: data/06_models/regressor_active.pickle
-  versioned: true
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/regressor_active.pickle
+    versioned: True
 
 candidate_modelling_pipeline.regressor:
-  type: pickle.PickleDataSet
-  filepath: data/06_models/regressor_candidate.pickle
-  versioned: true
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/regressor_candidate.pickle
+    versioned: True
 
 shuttle_passenger_capacity_plot_exp:
   type: plotly.PlotlyDataSet
